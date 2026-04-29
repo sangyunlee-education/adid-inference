@@ -2,7 +2,7 @@
 # Basic Example for the adid Package
 # ============================================================
 
-source("../adid/R/adid.R")
+source("adid/R/adid.R")
 
 set.seed(2026)
 
