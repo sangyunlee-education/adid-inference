@@ -14,7 +14,8 @@
 #   - tau = 0.5: rejection_rate is power.
 # ============================================================
 
-source("../adid/R/adid.R")
+source("adid/R/adid.R")
+OUTPUT_DIR <- "output"
 
 suppressPackageStartupMessages({
   library(dplyr)
