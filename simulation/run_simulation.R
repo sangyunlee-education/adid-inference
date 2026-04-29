@@ -15,7 +15,6 @@
 # ============================================================
 
 source("adid/R/adid.R")
-OUTPUT_DIR <- "output"
 
 suppressPackageStartupMessages({
   library(dplyr)
@@ -45,7 +44,7 @@ SIM_CONFIG <- list(
   school_treat_sd = 1.0
 )
 
-OUTPUT_DIR <- "../output"
+OUTPUT_DIR <- "output"
 
 num_cores <- max(1, parallel::detectCores() - 1)
 future::plan(future::multisession, workers = num_cores)
