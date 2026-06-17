@@ -1,10 +1,15 @@
 Package: adid
 Type: Package
-Title: Adjusted Difference-in-Differences Estimation
-Version: 0.0.1
-Authors@R: person("Anonymous", "Author", email = "anonymous@example.com", role = c("aut", "cre"))
-Description: Computes adjusted difference-in-differences estimates with delta-method, cluster-robust delta-method, bootstrap, and cluster bootstrap standard errors.
+Title: Adjusted Difference-in-Differences Inference
+Version: 0.1.0
+Authors@R: person(given = "Sangyun", family = "Lee", role = c("aut", "cre"))
+Description: 조정된 이중차분(adjusted DID; aDID) 추정량과 델타방법, 군집 강건 델타방법, 개인 단위 부트스트랩, 군집 부트스트랩 표준오차를 계산하는 연구용 R 함수 모음입니다.
 License: MIT
 Encoding: UTF-8
+LazyData: true
+Imports:
+    stats
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+URL: https://github.com/sangyunlee-education/adid-inference
+BugReports: https://github.com/sangyunlee-education/adid-inference/issues
