@@ -157,20 +157,6 @@ output/tables/table_main_tau0p5_school.csv
 - `tau = 0.0`: 기각률은 제1종 오류율입니다.
 - `tau = 0.5`: 기각률은 검정력입니다.
 
-## GitHub 저장소 설명 권장안
-
-GitHub의 About 설명은 다음처럼 바꾸는 것을 권장합니다.
-
-```text
-조정된 이중차분(aDID) 추정량의 표준오차 계산 및 Monte Carlo 모의실험 재현 코드
-```
-
-권장 토픽은 다음과 같습니다.
-
-```text
-r, difference-in-differences, causal-inference, delta-method, bootstrap, cluster-robust, monte-carlo-simulation, education-research
-```
-
 ## 재현성 메모
 
 - `run_chunk.R`와 `run_all_chunks.R`는 `label` 인자를 받아 결과 파일명을 구분합니다.
@@ -183,10 +169,8 @@ Rscript simulation/run_chunk.R tau=0 assignment=individual label=main overwrite=
 
 ## 인용
 
-논문이 출판되면 아래 항목을 실제 서지정보로 교체하십시오.
-
 ```text
-Lee, S. (연도). 조정된 이중차분 추정량의 통계적 추론: 델타방법 표준오차와 다층자료로의 확장. 학술지명.
+이상윤, 김용남. (2026). 조정된 이중차분 추정량의 통계적 추론: 델타방법 표준오차와 다층자료로의 확장. 교육평가연구, 39(2),
 ```
 
 ## 라이선스
